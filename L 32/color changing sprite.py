@@ -8,7 +8,7 @@ def main():
 
     colors = {
         'red': pygame.Color('red'),
-        'green': pygame.Color('green'),
+        'purple': pygame.Color('purple'),
         'blue': pygame.Color('blue'),
         'yellow': pygame.Color('yellow'),
         'white': pygame.Color('white'),
@@ -46,6 +46,9 @@ def main():
         pygame.display.flip()
         clock.tick(90)
 
-    pygame.quit()       
+    pygame.quit()     
 
 
+
+if __name__ == "__main__" : 
+    main()
